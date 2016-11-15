@@ -107,7 +107,6 @@ public class Avvio {
 		lblNewLabel.setFont(SWTResourceManager.getFont("Tekton Pro", 17, SWT.NORMAL));
 		lblNewLabel.setBounds(10, 68, 272, 44);
 		
-		
 		Label label = new Label(shell, SWT.NONE);
 		label.setImage(SWTResourceManager.getImage(Avvio.class, "/pizzeria/aperto2.gif"));
 		label.setBounds(129, 16, 103, 57);
@@ -162,6 +161,18 @@ public class Avvio {
 		btnNewButton.setBounds(294, 47, 97, 25);
 		btnNewButton.setText("Chiudi pizzeria");
 		
+
+		Label lblNome = new Label(shell, SWT.NONE);
+		lblNome.setBackground(SWTResourceManager.getColor(222, 184, 135));
+		lblNome.setBounds(288, 10, 55, 15);
+		lblNome.setText("Nome");
+		
+		Label lblPizza = new Label(shell, SWT.NONE);
+		lblPizza.setBackground(SWTResourceManager.getColor(222, 184, 135));
+		lblPizza.setBounds(288, 40, 55, 15);
+		lblPizza.setText("Pizza");
+		
+
 		Label lblPizzeDaFare = new Label(shell, SWT.NONE);
 		lblPizzeDaFare.setForeground(SWTResourceManager.getColor(255, 255, 255));
 		lblPizzeDaFare.setBackground(SWTResourceManager.getColor(0, 0, 0));
@@ -173,7 +184,7 @@ public class Avvio {
 		lblPizzePronte.setBackground(SWTResourceManager.getColor(0, 0, 0));
 		lblPizzePronte.setBounds(177, 113, 97, 15);
 		lblPizzePronte.setText("Pizze pronte");
-		
+
 		Label lblByRoxali = new Label(shell, SWT.NONE);
 		lblByRoxali.setBackground(SWTResourceManager.getColor(0, 0, 0));
 		lblByRoxali.setForeground(SWTResourceManager.getColor(153, 255, 102));
@@ -183,10 +194,6 @@ public class Avvio {
 		
 		
 	
-		
-	
-		
-		
 		
 		elenco = new Elenco();
 
