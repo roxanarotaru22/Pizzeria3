@@ -103,7 +103,6 @@ public class Avvio {
 		lblNewLabel.setFont(SWTResourceManager.getFont("Tekton Pro", 17, SWT.NORMAL));
 		lblNewLabel.setBounds(10, 68, 310, 44);
 		
-		
 		Label label = new Label(shell, SWT.NONE);
 		label.setImage(SWTResourceManager.getImage(Avvio.class, "/pizzeria/aperto2.gif"));
 		label.setBounds(134, 21, 103, 57);
@@ -158,9 +157,6 @@ public class Avvio {
 				list_1.removeAll();
 				label.setVisible(false);
 				lblNewLabel.setText("PIZZERIA CHIUSA");
-				
-				
-				
 			}
 		});
 		btnNewButton.setBounds(327, 227, 97, 25);
@@ -170,8 +166,6 @@ public class Avvio {
 		lblNome.setBackground(SWTResourceManager.getColor(222, 184, 135));
 		lblNome.setBounds(288, 10, 55, 15);
 		lblNome.setText("Nome");
-		
-		
 		
 		Label lblPizza = new Label(shell, SWT.NONE);
 		lblPizza.setBackground(SWTResourceManager.getColor(222, 184, 135));
@@ -187,14 +181,6 @@ public class Avvio {
 		lblPizzePronte.setBackground(SWTResourceManager.getColor(222, 184, 135));
 		lblPizzePronte.setBounds(177, 113, 97, 15);
 		lblPizzePronte.setText("Pizze pronte");
-		
-		
-		
-	
-		
-	
-		
-		
 		
 		elenco = new Elenco();
 
